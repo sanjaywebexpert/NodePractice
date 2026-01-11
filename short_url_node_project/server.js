@@ -6,8 +6,8 @@ const app = express()
 app.use(express.urlencoded({extended:true}))
 
 mongoose.connect(
-    "mongodb+srv://sanjayraghusharma_db_user:QKZHslplW6RQLDZc@cluster0.lrw3uhd.mongodb.net",{
-        "dbName":'sanjayraghusharma_db_user'
+    "mongodb+srv://:",{
+        "dbName":'dbname'
     }
 ).then(console.log("Mongoose connected")).catch((error)=>console.log(error));
 

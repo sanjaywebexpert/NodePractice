@@ -9,8 +9,8 @@ import mongoose from 'mongoose'
 const app = express()
 
 mongoose.connect(
-    "mongodb+srv://sanjayraghusharma_db_user:QKZHslplW6RQLDZc@cluster0.lrw3uhd.mongodb.net",{
-        "dbName":'sanjayraghusharma_db_user'
+    "",{
+        "dbName":''
     }
 ).then(console.log("Mongoose connected")).catch((error)=>console.log(error));
 
